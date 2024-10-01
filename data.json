@@ -1,0 +1,49 @@
+{
+  "nom": "Nathan Wick",
+  "titre": "Étudiant en UX/UI Design",
+  "description": "Étudiant en UX/UI design à l'IFOSUP, je développe des compétences solides dans la conception d’interfaces utilisateur intuitives et attrayantes. En parallèle, je travaille comme monteur vidéo indépendant, avec une expertise en production vidéo, gestion de contenu et des réseaux sociaux.",
+  "experience_professionnelle": [
+    {
+      "poste": "Monteur vidéo & gestion des réseaux sociaux",
+      "entreprise": "Indépendant",
+      "localisation": "123 Anywhere St., Any City",
+      "date_debut": "Janvier 2020",
+      "date_fin": "Présent",
+      "responsabilites": [
+        "Création, montage et publication de vidéos sur YouTube",
+        "Gestion des réseaux sociaux pour promouvoir les contenus",
+        "Développement d'une audience et interaction avec la communauté",
+        "Acquisition de compétences en gestion de projet, montage vidéo et marketing digital"
+      ]
+    }
+  ],
+  "competences": [
+    "Webdesign",
+    "Développement (HTML/CSS, notions de Javascript, Bootstrap, WordPress)",
+    "Graphisme (Photoshop, Illustrator)",
+    "Montage vidéo (Première Pro)",
+    "Community management",
+    "Publication et gestion des réseaux sociaux"
+  ],
+  "formation": [
+    {
+      "ecole": "IFOSUP Wavre",
+      "diplome": "BES UX/UI Designer",
+      "statut": "En cours"
+    },
+    {
+      "ecole": "École Polytechnique de Verviers",
+      "diplome": "CESS technique de transition informatique",
+      "statut": "Terminé"
+    }
+  ],
+  "langues": {
+    "francais": "Langue maternelle",
+    "anglais": "Niveau B2"
+  },
+  "contact": {
+    "telephone": "+32 499 50 51 42",
+    "email": "nathan.wick.job@gmail.com",
+    "adresse": "Prout City 1360 Perwez"
+  }
+}

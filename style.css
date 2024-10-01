@@ -1,0 +1,195 @@
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Couleur de fond légère */
+  margin: 0;
+  padding: 20px;
+}
+
+nav {
+  background-color: #2980b9; /* Couleur de fond de la barre de navigation */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centrer les liens */
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white; /* Couleur du texte */
+  text-decoration: none; /* Pas de soulignement */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Soulignement au survol */
+}
+
+/* Conteneur principal */
+#container {
+  display: flex; /* Utiliser flexbox pour la disposition */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Colonne latérale */
+#sidebar {
+  flex: 1; /* Colonne latérale prend un espace proportionnel */
+  background-color: #fff; /* Fond blanc pour le sidebar */
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.competences {
+  list-style-type: none; /* Retirer les puces */
+  padding: 0;
+}
+
+.competences li {
+  margin-bottom: 5px;
+}
+
+/* Contenu principal */
+#app {
+  flex: 2; /* Le contenu principal prend plus d'espace */
+  background-color: #fff; /* Fond blanc pour le contenu principal */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* En-tête du profil */
+h1 {
+  font-size: 2.5em;
+  color: #2c3e50; /* Couleur sombre pour le nom */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.1em;
+  text-align: center;
+  color: #555; /* Couleur grise pour la description */
+  margin-bottom: 30px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #2980b9; /* Couleur bleue pour les titres de section */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #e74c3c; /* Ligne rouge en bas des titres */
+  padding-bottom: 5px;
+}
+
+/* Expérience professionnelle */
+.experience {
+  margin-bottom: 20px;
+}
+
+.experience h4 {
+  font-size: 1.2em;
+  color: #2980b9; /* Titre de l'expérience en bleu */
+  margin: 0;
+}
+
+.experience p {
+  margin: 5px 0;
+}
+
+.experience ul {
+  padding-left: 20px;
+}
+
+.experience li {
+  margin-bottom: 5px;
+}
+
+/* Compétences */
+ul.competences {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.competences li {
+  background-color: #ecf0f1; /* Fond gris clair */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+ul.competences i {
+  margin-right: 5px;
+  color: #2980b9; /* Couleur pour les icônes */
+}
+
+/* Formation */
+.formation {
+  margin-bottom: 20px;
+}
+
+.formation div {
+  margin-bottom: 10px;
+}
+
+.formation p {
+  margin: 0;
+}
+
+/* Langues */
+.langues p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.langues span {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #3498db; /* Couleur bleue pour les badges de langue */
+  color: white;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+/* Contact */
+.contact p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.contact span {
+  display: inline-block;
+  background-color: #e74c3c; /* Rouge pour les badges de contact */
+  color: white;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+/* Classe pour la surbrillance */
+.highlight {
+  background-color: rgba(255, 223, 186, 0.5); /* Couleur de surbrillance */
+  transition: background-color 0.5s ease; /* Transition douce */
+}
